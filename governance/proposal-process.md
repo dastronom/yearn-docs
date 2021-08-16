@@ -1,66 +1,66 @@
-# Proposal Process
+# Proposal Process - TR
+# Önerge Süresi
 
-The Yearn ecosystem is controlled by YFI token holders who submit and vote on off-chain proposals that govern the ecosystem. Proposals that generate a majority support (>50% of the vote) are implemented by a 9 member multi-signature wallet. 
+Yearn finance ekosistemi, ekosistemi yöneten off-chain teklifler sunan ve bunlara oy veren YFI token sahipleri tarafından kontrol edilmektedir. Çoğunluk desteği (oyların >50%) oluşturan teklifler, çok imzalı cüzdana sahip 9 üye tarafından uygulanmaktadır. 
 
-Changes must be signed by 6 out of the 9 wallet signers in order to be implemented. The [members of the multi-signature wallet](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) were voted in by YFI holders and are subject to change from future governance votes. 
-# Discussion
+Değişikliklerin uygulanabilmesi için cüzdan imzalayan üyelerden 6'sının imzası ile gerçekleşmektedir.[multisig cüzdanın üyeleri](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig), YFI sahipleri tarafından oylanmakta ve gelecekteki yönetim oylarıyla değiştirilebilmektedir. 
+# Müzakere
 
-Discussion regarding changes in the protocol happen on a variety of platforms such as:
+Protokoldeki değişikliklerle ilgili tartışmalar, aşağıdakiler gibi çeşitli platformlarda gerçekleşir:
 
- - [Governance Forum](https://gov.yearn.finance/)
- - [Discord](https://discord.yearn.finance)
- - [Telegram](https://t.me/yearnfinance)
+- [Yönetim Forumu](https://gov.yearn.finance/)
+- [Anlaşmazlık](https://discord.yearn.finance)
+- [Telegram](https://t.me/yearnfinance)
+ 
+Resmi bir teklif sunmadan önce çeşitli iletişim kanallarından mümkün olduğunca fazla geri bildirim almanız önerilir. Yönetim forumu ve Discord sunucusu, belirli konular için özel kanallara sahiptir.
 
-It is recommended to get as much feedback as possible from the various channels of communication before introducing a formal proposal. The governance forum and Discord server have dedicated channels for specific topics.
+# Önerge
 
-# Proposal
+## Önerge türleri
 
-## Types of proposals
-
-**Yearn Improvement Proposals** (YIPs) are an all-encompassing vehicle for exercising power that token holders are granted. After [YIP-61](https://gov.yearn.finance/t/yip-61-governance-2-0/10460), **Yearn Delegation Proposals** (YDPs) were introduced, which allow token holders to change where any discrete decision-making power is delegated.
+**Yearn İyileştirme Önergeleri** (YIP'ler), token sahiplerine verilen gücü kullanmak için her şeyi kapsayan bir araçtır. [YIP-61](https://gov.yearn.finance/t/yip-61-governance-2-0/10460) sonrası Token sahiplerinin herhangi bir ayrık karar verme yetkisinin devredildiği yerde değişiklik yapmalarına izin veren **Yearn Delegasyon Önerileri** (YDP'ler) tanıtıldı.
 
 ![](https://i.imgur.com/ZRNp2Zq.png)
 
-### Previous and current proposals
-- Previous: [Proposal Repository](https://docs.yearn.finance/governance/proposal-repository)
-- Current: [Snapshot](https://snapshot.page/#/yearn) 
+### Önceki ve mevcut önergeler
+- Önceki: [öneri kutusu](https://docs.yearn.finance/governance/proposal-repository)
+- Güncel: [Anlık Görüntü](https://snapshot.page/#/yearn)
 
-### Requirements to pass proposals
-- 3 day discussion on the [forum](https://gov.yearn.finance/)
-  - At least 25% vote 'for' the change
-- 1 YFI in possession to submit to snapshot
-- 5 day [snapshot](https://snapshot.org/#/ybaby.eth) with over 50% passing votes
+### Önergeleri geçmek için gereksinimler
+- [forumda](https://gov.yearn.finance/) 3 günlük tartışma
+  - Değişiklik için en az %25 oy
+- Anlık görüntüye göndermek için sahip olunan 1 YFI
+- %50'nin üzerinde geçer oyla 5 gün boyunca [anlık görüntü](https://snapshot.org/#/ybaby.eth)
+ 
+## Önerge hazırlamak
 
-## Making a proposal
+Herkes topluluk içinde tartışmak üzere foruma bir teklif gönderebilir. Eğer zincir dışı oylamaya terfi ettirilirse ([Snapshot](https://snapshot.page/#/yearn) aracılığıyla), sadece, 1 YFI'ye sahip olan biri bunu Snapshot'a gönderebilir.Teklifiniz zincir dışı oylamaya ulaştıysa ve yeterli YFI'niz yoksa moderatörler size yardımcı olacaktır.
 
-Anyone can post a proposal on the forum for discussion within the community. If it's promoted to off-chain votation (via [Snapshot](https://snapshot.page/#/yearn)), only someone holding 1 YFI can submit it to Snapshot. In case your proposal made it to off-chain votation and you don't have enough YFI, mods will help you.
+Öneriler için varsayılan şablon [Github](https://github.com/yearn/YIPS/blob/master/yip-X.md)'da bulunabilir + eğer [forum](https://gov.yearn.finance)'da teklifler veya tartışmalar altında bir gönderi yaparsanız, şablon da otomatik olarak doldurulacaktır.
 
-The default template for proposals can be found on [Github](https://github.com/yearn/YIPS/blob/master/yip-X.md) + on the [forum](https://gov.yearn.finance) if you make a post under proposals or discussion it will auto-fill in the template as well.
+**Kaynaklar**
+- [Teklif Nasıl Yapılır](https://gov.yearn.finance/t/proposal-how-to/106)
+- [YIP 0: YIP amaç ve yönergeler](https://yips.yearn.finance/YIPS/yip-0)
+- [YIP 44:YIP kategorilerini geliştirmek ](https://yips.yearn.finance/YIPS/yip-44)
+- [YIP 55: YIP Tanıtım ve Oylama Sürecini Resmileştirmek](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959)
 
-**Resources**:
-- [Proposal How-To](https://gov.yearn.finance/t/proposal-how-to/106)
-- [YIP 0: YIP Purpose and Guidelines](https://yips.yearn.finance/YIPS/yip-0)
-- [YIP 44: Improve YIP Categories](https://yips.yearn.finance/YIPS/yip-44)
-- [YIP 55: Formalize the YIP Introduction and Voting Process](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959)
+# Oylama
 
-# Voting
+## Nasıl oy veririm?
 
-## How do I vote?
+- Aşağıda belirtilen yerlerde YFI bulundurmak veya stake etmek size yearn'nin [Snapshot](https://snapshot.page/#/yearn) sayfasında oy verme hakkı kazandıracaktır: 
+   - cüzdanınızda
+   - YFI yVault V2 (yvYFI token bulundurmaya eşdeğer)
+   - Balancer YFI/WETH LP token
+   - Uniswap YFI/WETH LP token
+   - MasterChef'da stake esilmiş Sushiswap YFI/WETH LP token
+   - MakerDAO YFI teminat
+   - Unit Protocol YFI teminat
+   - Bancor
+ 
+## Forumdaki bir ankete oy vermek ile zincir dışı bir oylama arasındaki fark nedir?
 
-- Holding or staking YFI in the following places will enable you to vote on Yearn's [Snapshot](https://snapshot.page/#/yearn) page:
-	- Your wallet
-	- YFI yVault V2 (equivalent to holding the yvYFI token)
-	- Balancer YFI/WETH LP token
-	- Uniswap YFI/WETH LP token
-	- Sushiswap YFI/WETH LP token staked in MasterChef
-	- MakerDAO YFI collateral
-	- Unit Protocol YFI collateral
-	- Bancor
+- Bir anket sadece topluluğun teklif hakkında ne hissettiğini ölçerken, zincir dışı bir oy ([Snapshot](https://snapshot.page/#/yearn) ile) bağlayıcı olacak ve geçerse yürürlüğe girecek.
 
-## What’s the difference between voting for a poll on the forum and an off-chain vote?
-
-- A poll just gauges the sentiment of what the community is feeling on the proposal while an off-chain vote (via [Snapshot](https://snapshot.page/#/yearn)) will be binding and will take effect if it passes.
-
-# Implementation
-
-Once a Snapshot votes have passed, changes will be implemented by Yearn's protocol or operations team and signed by the multi-sig, if necessary.
+# Yürürlüğe koymak
+Snapshot oylamaları bittikten sonra, değişiklikler Yearn'in protokolü veya operasyon ekibi tarafından uygulanacak ve gerekirse çoklu imza yetkilileri tarafından imzalanacak.
