@@ -1,52 +1,49 @@
-# How Yearn increases your yield 
+# Yearn veriminizi nasıl artırır
 
-Almost everything that yVaults interact with is available to the public. So how is Yearn able to offer users better yield than they'd be able to achieve on their own? 
+yVaults'un etkileşimde bulunduğu hemen hemen her şey halka açıktır. Peki Yearn, kullanıcılara kendi başlarına elde edebileceklerinden daha iyi bir getiriyi nasıl sunabilir?
 
-## Curve Finance Synergy 
+## Curve Finance'nin Sinerjisi
 
-Many of Yearn's strategies utilize Curve Finance's liquidity mining program. [Curve Finance](https://curve.fi/) has a 300 year token distribution program for those who provide liquidity for their low slippage decentralized exchange.
+Yearn'in stratejilerinin çoğu, Curve Finance'in likidite madenciliği programını kullanır. [Curve Finance](https://curve.fi/), düşük slipajlı merkezi olmayan borsalarında likidite sağlayanlar için 300 yıllık bir token dağıtım programına sahiptir.
 
-### veCRV Boosts 
+### veCRV Güçlendirmeleri
 
-CRV is distributed continuously to users who stake certain liquidity provider tokens in Curve's [gauge](https://resources.curve.fi/base-features/understanding-gauges). Those CRV rewards can be increased when the user locks up their CRV in the [Locker](https://dao.curve.fi/locker). This locker gives the staker veCRV in return, which bears the right to vote in governance and to claim a portion of the protocol's fees. 
+CRV, Curve [gauge](https://resources.curve.fi/base-features/understanding-gauges)'nin içinde belirli likidite sağlayıcı token'i stake eden kullanıcılara sürekli olarak dağıtılır. Bu CRV ödülleri, kullanıcı CRV'lerini [Locker](https://dao.curve.fi/locker)'da kilitlediğinde artırılabilir. Bu locker, karşılığında, hissedarlara yönetimde oy kullanma ve protokol ücretlerinin bir kısmını talep etme hakkını taşıyan  veCRV'yi verir.
 
-Locking CRV allows users to boost the CRV rewards they are receiving when providing liquidity in eligible pools. The amount of the boost is determined by how much CRV was locked and their relative stake in the pool. 
+CRV'yi kilitlemek, kullanıcıların uygun havuzlara likidite sağlarken aldıkları CRV ödüllerini artırmalarına olanak sağlar.Artış miktarı, ne kadar CRV'nin kilitlendiğine ve havuzdaki göreceli paylarına göre belirlenir.
 
 ![](https://i.imgur.com/QaMMdr7.png)
 
-Using the Backscratcher yVault, Yearn locks up a significant amount of CRV indefinitely, and distributes the boosts to various yVaults.  
+Yearn, Backscratcher yVault'u kullanarak önemli miktarda CRV'yi süresiz olarak kilitler ve güçlendirmeleri çeşitli yVault'lara dağıtır.  
 
 ### Backscratcher yVault
 
-The Backscratcher yVault capitalizes on liquidity mining in a way that's beneficial to both Curve and Yearn. 
+Backscratcher yVault, hem Curve hem de Yearn için faydalı olacak şekilde likidite madenciliğinden yararlanır.
 
-Users deposit CRV into the yVault which is locked infinitely. In return they receive a token that represents a share of the Backscratcher pool. Revenue earned from the curve through curve fee sharing is distributed in the Backscratcher pool and can be redeemed by depositors on a weekly basis. 
+Kullanıcılar, CRV'yi sonsuz kilitli olan yVault'a yatırır. Karşılığında Backscratcher havuzunun bir payını temsil eden bir token alırlar. Curve üzerinden curve ücreti paylaşımı yoluyla kazanılan gelir, Backscratcher havuzunda dağıtılır ve mevduat sahipleri tarafından haftalık olarak itfa edilir.
 
-Additionally, 10% of all CRV earned by Yearn Finance is deposited into Backscratcher and locked infinitely. Because of this, people who want to stake CRV will always receive a higher share of the Backscratcher yVault's revenue than staking directly through Curve. They also can earn emissions of tokens like SUSHI and PICKLE for providing liquidity. 
+Ayrıca, Yearn Finance tarafından kazanılan tüm CRV'nin %10'u Backscratcher'a yatırılır ve sonsuza kadar kilitlenir. Bu nedenle, CRV'yi stake etmek isteyenler doğrudan Curve üzerinden stake yapmaktansa Backscratcher yVault'un aracılığıyla her zaman  daha yüksek bir kar pay alacaklardır. Ayrıca likidite sağlamak için SUSHI ve PICKLE gibi token emisyonları da kazanabilirler.
 
 ![](https://i.imgur.com/UfCikwk.png)
 
-Users will never be able to withdraw their original CRV, but because of the incentives on yveCRV liquidity and the value that the token accrues from various sources of revenue, they will be able to swap it for another asset for some price. 
+Kullanıcılar orijinal CRV'lerini hiçbir zaman geri çekemeyecekler, ancak yveCRV likiditesi üzerindeki teşvikler ve token'in çeşitli gelir kaynaklarından elde ettiği değer nedeniyle, onu başka bir token'le belirli bir fiyat karşılığında takas edebilecekler.
 
-In return, control over the locked CRV's boosts is given to Yearn, and utilized throughout various yVaults. 
+Karşılığında, kilitli CRV'nin güçlendirmeleri üzerindeki kontrol Yearn'e verilir ve çeşitli yVault'larda kullanılır.
 
-## Auto-compounding yield 
+## Otomatik compound (bileşik) getirisi
 
-Compounding yield requires transaction fees to be paid to the Ethereum blockchain. This can be expensive and cut into returns. 
+Bileşik getiri, işlem ücretlerinin Ethereum blok zincirine ödenmesini gerektirir. Bu pahalı olabilir ve karda kesinti yapabilir.
 
-Because yVaults batch your transaction with many other depositors, it is cumulatively lower cost and higher return to earn yield using the vaults. Currently, gas costs are covered by the Keep3r network, meaning that users are compounding returns while bearing no cost. 
+yVault'lar işleminizi diğer birçok mevduat sahibiyle gruplandırdığından, kasaları kullanarak getiri elde etmek için kümülatif olarak daha düşük maliyet ve daha yüksek getiri elde edilir. Şu anda, gaz maliyetleri Keep3r ağı tarafından karşılanmaktadır; bu, kullanıcıların hiçbir ücret ödemeden getirileri birleştirdiği anlamına gelir.
 
-## Leverage 
+## Kaldıraç
 
-Yearn utilizes the Iron Bank (C.R.E.A.M. Finance) to access credit that is used to enhance yVault yields. Only white-listed addresses have this feature available to them, meaning that typically, individuals are not able to do this on their own. 
+Yearn, yVault getirilerini artırmak için kullanılan krediye erişmek için Iron Bank'ın (C.R.E.A.M. Finance) kullanır. Yalnızca beyaz listedeki adresler bu özelliğe sahiptir, yani genellikle bireyler bunu kendi başlarına yapamazlar.
 
-Some strategies also implement [flash loans](https://docs.yearn.finance/resources/defi-glossary#flash-loan), which is typically a back-end service that requires development experience to take advantage of. 
+Bazı stratejiler de, yararlanmak için geliştirme deneyimi gerektiren bir back-end hizmeti olan [flash kredileri](https://docs.yearn.finance/resources/defi-glossary#flash-loan) uygular.
 
-## Partnerships
+## Ortaklıklar
 
-The Backscratcher yVault is only possible due to synergistic relationships with protocols like Curve, SushiSwap and Pickle Finance. Our relationships across DeFi allow yVault depositors benefits that they cannot get elsewhere. 
+Backscratcher yVault, yalnızca Curve, SushiSwap ve Pickle Finance gibi protokollerle sinerjik ilişkiler sayesinde mümkündür. DeFi genelindeki ilişkilerimiz, yVault mevduat sahiplerine başka yerde alamayacakları avantajlar sağlıyor.
 
-Yearn actively collaborates on development with protocols like the ones mentioned in order to create new opportunities for yield and further DeFi as an industry. 
-
-
-
+Yearn, sektör olarak verim ve daha fazla DeFi için yeni fırsatlar yaratmak için bahsedilen protokollerle geliştirme konusunda aktif olarak işbirliği yapıyor.
