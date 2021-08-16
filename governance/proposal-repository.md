@@ -1,52 +1,52 @@
-# Proposal Repository
+# Öneri Kutusu
 
-Yearn Improvement Proposals (YIPs), Yearn Delegation Proposals (YDPs) and Yearn Signaling Proposals (YSPs) are all tools that token holders use to maintain and grow the protocol. 
+Yearn İyileştirme Önerileri (YIP'ler), Yearn Delegasyon Önerileri (YDP'ler) ve Yearn Sinyalizasyon Önerileri (YSP'ler), token sahiplerinin protokolü sürdürmek ve büyütmek için kullandığı araçlardır.
 
-## Approved
+## Onaylanan
 
-|Number|Title|Author|
+|Adet|Ünvan|Yaratıcı|
 |------|-----|------|
-|[34](https://yips.yearn.finance/YIPS/yip-34)|Add Synthetix (SNX) to yVaults|[Substreight](https://github.com/substreight)|
-|[52](https://yips.yearn.finance/YIPS/yip-52)|Make Strategist Skin in Game Partner for Make Benefit of Glorious Brain of Yearn|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [milkyklim](https://github.com/milkyklim)|
+|[34](https://yips.yearn.finance/YIPS/yip-34)|yVaults'a Synthetix (SNX) ekle|[Substreight](https://github.com/substreight)|
+|[52](https://yips.yearn.finance/YIPS/yip-52)|Yearn'in muhteşem Beyninden Yararlanmak İçin Oyun Ortağı Olun|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [milkyklim](https://github.com/milkyklim)|
 
-## Implemented
+## Uygulanan
 
-|Number|Title|Author|
+|Adet|Ünvan|Yaratıcı|
 |------|-----|------|
-|[0](https://yips.yearn.finance/YIPS/yip-0)|YIP Purpose and Guidelines|Yearn Community|
-|[1](https://yips.yearn.finance/YIPS/yip-1)|Minting more YFI|[Andre Cronje](https://github.com/andrecronje)|
-|[10](https://yips.yearn.finance/YIPS/yip-10)|Transitionary YFI Only Voting|[Rewkang](https://github.com/rewkang)|
-|[12](https://yips.yearn.finance/YIPS/yip-12)|Reducing the quorum for accepting proposal|[cp287](https://github.com/illlefr4u)|
-|[32](https://yips.yearn.finance/YIPS/yip-32)|Remove YFI burning|[Sunil Srivatsa](https://github.com/alphastorm)|
-|[33](https://yips.yearn.finance/YIPS/yip-33)|Add LINK to yVaults|[franklin](https://github.com/franklin501)|
-|[35](https://yips.yearn.finance/YIPS/yip-35)|Distribute Donations vs Purchase YFI|[Andre Cronje](https://github.com/andrecronje),[Klim K](https://github.com/milkyklim)|
-|[36](https://yips.yearn.finance/YIPS/yip-36)|System rewards as operational capital|[Andre Cronje](https://github.com/andrecronje), iTo, [n00b](https://github.com/jchi18), [Artem K](https://github.com/banteg)|
-|[37](https://yips.yearn.finance/YIPS/yip-37)|Participate in CRV governance and 2.5x CRV reward boost|[Andre Cronje](https://github.com/andrecronje), [Artem K](https://github.com/banteg)|
-|[38](https://yips.yearn.finance/YIPS/yip-38)|Distribute / Keep Balancer Rewards|[Klim K](https://github.com/milkyklim)|
-|[39](https://yips.yearn.finance/YIPS/yip-39)|Add Curve sBTC Pool LP-Tokens yVault|[uhmpeps](https://github.com/az)|
-|[40](https://yips.yearn.finance/YIPS/yip-40)|Replace inactive multisig signers|[cp287](https://github.com/illlefr4u), [Artem K](https://github.com/banteg)|
-|[41](https://yips.yearn.finance/YIPS/yip-41)|Temporarily Empower Multisig|[tracheopteryx](https://github.com/tracheopteryx), [Joe Mahon](https://github.com/Substreight), [franklin501](https://github.com/franklin501), Michael Anderson, Vance Spencer|
-|[44](https://yips.yearn.finance/YIPS/yip-44)|Improve YIP categories|[sam bacha](sam@freighttrust.com)|
-|[45](https://yips.yearn.finance/YIPS/yip-45)|Add a bounty for proposing YIPs that are implemented|[Sunil Srivatsa](https://github.com/alphastorm)|
-|[51](https://yips.yearn.finance/YIPS/yip-51)|Set Vault v2 Fee Structure|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [milkyklim](https://github.com/milkyklim), [tracheoptery](https://github.com/tracheopteryx)|
-|[54](https://yips.yearn.finance/YIPS/yip-54)|Formalize Operations Funding|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [lex_node](https://github.com/lex-node)|[milkyklim](https://github.com/milkyklim), [tracheopteryx](https://github.com/tracheopteryx)|
-|[55](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959/7)|Formalize the YIP Process|[franklin](https://github.com/franklin501)|
-|[56](https://snapshot.org/#/yearn/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ)|BABY: Buyback and Build|[lex_node](https://github.com/lex-node), [tracheopteryx](https://github.com/tracheopteryx), [Artem K](https://github.com/banteg), [Klim K](https://github.com/milkyklim), [Ryan Watkins](https://twitter.com/RyanWatkins_), [lehnberg](https://github.com/lehnberg)|
-|[57](https://snapshot.org/#/yearn/proposal/QmX8oYTSkaXSARYZn7RuQzUufW9bVVQtwJ3zxurWrquS9a)| Funding Yearn's Future| [aleks-blockchaincap](https://gov.yearn.finance/u/aleks-blockchaincap/summary), [Artem K](https://github.com/banteg), [dudesahn](https://twitter.com/dudesahn), [ekrenzke](https://gov.yearn.finance/u/ekrenzke), [lehnberg](https://github.com/lehnberg), [Klim K](https://github.com/milkyklim), [Ryan Watkins](https://twitter.com/RyanWatkins_), [srs-parafi](https://gov.yearn.finance/u/srs-parafi/summary), [tracheopteryx](https://github.com/tracheopteryx), [vooncer](https://gov.yearn.finance/u/vooncer/summary), [yfi-cent](https://gov.yearn.finance/u/yfi-cent/summary)|
-|[59](https://snapshot.org/#/yearn/proposal/QmdRCXH6BQpNcucoZqAtS5hQKjckE2428qiZoWjxmJXbs3)|Temporarily extend Multisig empowerment|[lehnberg](https://github.com/lehnberg)|
-|[60](https://snapshot.org/#/ybaby.eth/proposal/QmNqAqRKMFcoRjaRYAKCVETij6sjJ4S1293kbpYDMVvcjB)|Airdrops to Yearn Vaults|[lehnberg](https://github.com/lehnberg)|
-|[61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4)|Governance 2.0|[tracheopteryx](https://github.com/tracheopteryx), [lex_node](https://github.com/lex-node)|
-|[62](https://snapshot.org/#/ybaby.eth/proposal/QmddCbGYbkooZ1zp8oYnbBz6frXLRc9xbkapXcuZcdzmMF)|Change Two Multisig Signers|[lehnberg](https://github.com/lehnberg), [tracheopteryx](https://github.com/tracheopteryx), [Klim K](https://github.com/milkyklim), [banteg](https://github.com/banteg)|
+|[0](https://yips.yearn.finance/YIPS/yip-0)|YIP Amaç ve Yönergesi|Yearn Cemiyeti|
+|[1](https://yips.yearn.finance/YIPS/yip-1)|Daha fazla YFI üretmi|[Andre Cronje](https://github.com/andrecronje)|
+|[10](https://yips.yearn.finance/YIPS/yip-10)|Sadece Oylama için geçici YFI|[Rewkang](https://github.com/rewkang)|
+|[12](https://yips.yearn.finance/YIPS/yip-12)|Öneri kabulu için nisap azaltmak|[cp287](https://github.com/illlefr4u)|
+|[32](https://yips.yearn.finance/YIPS/yip-32)|YFI Yakma işlemini kaldırmak|[Sunil Srivatsa](https://github.com/alphastorm)|
+|[33](https://yips.yearn.finance/YIPS/yip-33)|yVault'a LINK ekleme |[franklin](https://github.com/franklin501)|
+|[35](https://yips.yearn.finance/YIPS/yip-35)|Hibeleri Dağıtmak ve YFI Satın Almak|[Andre Cronje](https://github.com/andrecronje),[Klim K](https://github.com/milkyklim)|
+|[36](https://yips.yearn.finance/YIPS/yip-36)|İşletme sermayesi sistem ödülleri|[Andre Cronje](https://github.com/andrecronje), iTo, [n00b](https://github.com/jchi18), [Artem K](https://github.com/banteg)|
+|[37](https://yips.yearn.finance/YIPS/yip-37)|Participate in CRV yönetimine katılmak ve CRV ödüllerini 2.5 kat arttırmak|[Andre Cronje](https://github.com/andrecronje), [Artem K](https://github.com/banteg)|
+|[38](https://yips.yearn.finance/YIPS/yip-38)|Balancer Ödüllerini Bulundurmak / Bulundurmak|[Klim K](https://github.com/milkyklim)|
+|[39](https://yips.yearn.finance/YIPS/yip-39)|yVauls's Curve sBTC havuzu LP-Token'ı Eklemek|[uhmpeps](https://github.com/az)|
+|[40](https://yips.yearn.finance/YIPS/yip-40)|Etkin olmayan çoklu imza yetkililerini değiştirmek|[cp287](https://github.com/illlefr4u), [Artem K](https://github.com/banteg)|
+|[41](https://yips.yearn.finance/YIPS/yip-41)|Geçici olarak multisig Güçlendirmek|[tracheopteryx](https://github.com/tracheopteryx), [Joe Mahon](https://github.com/Substreight), [franklin501](https://github.com/franklin501), Michael Anderson, Vance Spencer|
+|[44](https://yips.yearn.finance/YIPS/yip-44)|YIP kategorilerini geliştirmek|[sam bacha](sam@freighttrust.com)|
+|[45](https://yips.yearn.finance/YIPS/yip-45)|Uygulanan YIP Öneri için ödül eklemek|[Sunil Srivatsa](https://github.com/alphastorm)|
+|[51](https://yips.yearn.finance/YIPS/yip-51)|Vault v2 ücret yapısını ayarlamak|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [milkyklim](https://github.com/milkyklim), [tracheoptery](https://github.com/tracheopteryx)|
+|[54](https://yips.yearn.finance/YIPS/yip-54)|Operasyon Finansmanını Resmileştirmek|[banteg](https://github.com/banteg), [lehnberg](https://github.com/lehnberg), [lex_node](https://github.com/lex-node)|[milkyklim](https://github.com/milkyklim), [tracheopteryx](https://github.com/tracheopteryx)|
+|[55](https://gov.yearn.finance/t/yip-55-formalize-the-yip-process/7959/7)|Sürecini resmileştirmek|[franklin](https://github.com/franklin501)|
+|[56](https://snapshot.org/#/yearn/proposal/Qmb6gBzjvgLMazSrQQGVcjutLNdkVyM2Lh6yckMzdoaHWZ)|BABY: Geri al ve İnşa et|[lex_node](https://github.com/lex-node), [tracheopteryx](https://github.com/tracheopteryx), [Artem K](https://github.com/banteg), [Klim K](https://github.com/milkyklim), [Ryan Watkins](https://twitter.com/RyanWatkins_), [lehnberg](https://github.com/lehnberg)|
+|[57](https://snapshot.org/#/yearn/proposal/QmX8oYTSkaXSARYZn7RuQzUufW9bVVQtwJ3zxurWrquS9a)| Yearn'in Geleceğini Finanse Etmek| [aleks-blockchaincap](https://gov.yearn.finance/u/aleks-blockchaincap/summary), [Artem K](https://github.com/banteg), [dudesahn](https://twitter.com/dudesahn), [ekrenzke](https://gov.yearn.finance/u/ekrenzke), [lehnberg](https://github.com/lehnberg), [Klim K](https://github.com/milkyklim), [Ryan Watkins](https://twitter.com/RyanWatkins_), [srs-parafi](https://gov.yearn.finance/u/srs-parafi/summary), [tracheopteryx](https://github.com/tracheopteryx), [vooncer](https://gov.yearn.finance/u/vooncer/summary), [yfi-cent](https://gov.yearn.finance/u/yfi-cent/summary)|
+|[59](https://snapshot.org/#/yearn/proposal/QmdRCXH6BQpNcucoZqAtS5hQKjckE2428qiZoWjxmJXbs3)|Multisig yetkilendirmesini geçici olarak uzatmak|[lehnberg](https://github.com/lehnberg)|
+|[60](https://snapshot.org/#/ybaby.eth/proposal/QmNqAqRKMFcoRjaRYAKCVETij6sjJ4S1293kbpYDMVvcjB)|Yearn Vault'larına bedelsiz dağıtım|[lehnberg](https://github.com/lehnberg)|
+|[61](https://snapshot.org/#/ybaby.eth/proposal/QmSMyYeKrRpnA7Xn56o2NtbCUzxmhzCupL7LxMA1reXxq4)|Yönetim 2.0|[tracheopteryx](https://github.com/tracheopteryx), [lex_node](https://github.com/lex-node)|
+|[62](https://snapshot.org/#/ybaby.eth/proposal/QmddCbGYbkooZ1zp8oYnbBz6frXLRc9xbkapXcuZcdzmMF)|2 Multisig İmzalayanını değiştirmek|[lehnberg](https://github.com/lehnberg), [tracheopteryx](https://github.com/tracheopteryx), [Klim K](https://github.com/milkyklim), [banteg](https://github.com/banteg)|
 
-## Rejected
+## Reddedilen
 
-|Number|Title|Author|
+|Adet|Ünvan|Yaratıcı|
 |------|-----|------|
-|[2](https://yips.yearn.finance/YIPS/yip-2)|Burn YFI for fees	|[Andre Cronje](https://github.com/andrecronje)|
-|[5](https://yips.yearn.finance/YIPS/yip-5)|Reducing YFI weekly supply|[Damir Bandalo](https://github.com/sikiriki12)|
-|[8](https://yips.yearn.finance/YIPS/yip-8)|Halving YFI weekly supply the same as bitcoin|steamer.eth|
-|[14](https://yips.yearn.finance/YIPS/yip-14)|Yearn Rewards Reserve	|[YieldBouncer](https://github.com/yieldbouncer)|
-|[30](https://yips.yearn.finance/YIPS/yip-30)|YFI Inflation Schedule|[Substreight](https://github.com/substreight), [DeltaTiger](https://github.com/deltatigernz), [Hannes Graah](https://github.com/Graadient), [Daryl lau](https://github.com/Daryllautk), yfi_whale|
-|[31](https://yips.yearn.finance/YIPS/yip-31)|YFI Inflation Distribution|[Substreight](https://github.com/substreight), [DeltaTiger](https://github.com/deltatigernz), [Hannes Graah](https://github.com/Graadient), [Daryl lau](https://github.com/Daryllautk)|
-|[42](https://yips.yearn.finance/YIPS/yip-42)|Add RenBTC to yVaults|[Azeem](https://github.com/zu-ctrl)|
-|[43](https://yips.yearn.finance/YIPS/yip-43)|Improve YIP categories|[sam bacha](sam@freighttrust.com)|
+|[2](https://yips.yearn.finance/YIPS/yip-2)|Ücretler için YFI yakmak|[Andre Cronje](https://github.com/andrecronje)|
+|[5](https://yips.yearn.finance/YIPS/yip-5)|Haftalık YFI arzını azaltmak|[Damir Bandalo](https://github.com/sikiriki12)|
+|[8](https://yips.yearn.finance/YIPS/yip-8)|Haftalık YFI arzını Bitcoin'de olduğu gibi yarıya düşürmek|steamer.eth|
+|[14](https://yips.yearn.finance/YIPS/yip-14)|Yearn Ödülleri Rezervi|[YieldBouncer](https://github.com/yieldbouncer)|
+|[30](https://yips.yearn.finance/YIPS/yip-30)|YFI Enflasyon Tablosu|[Substreight](https://github.com/substreight), [DeltaTiger](https://github.com/deltatigernz), [Hannes Graah](https://github.com/Graadient), [Daryl lau](https://github.com/Daryllautk), yfi_whale|
+|[31](https://yips.yearn.finance/YIPS/yip-31)|YFI Enflasyon Dağılımı|[Substreight](https://github.com/substreight), [DeltaTiger](https://github.com/deltatigernz), [Hannes Graah](https://github.com/Graadient), [Daryl lau](https://github.com/Daryllautk)|
+|[42](https://yips.yearn.finance/YIPS/yip-42)|yVault'a RenBTC eklemek|[Azeem](https://github.com/zu-ctrl)|
+|[43](https://yips.yearn.finance/YIPS/yip-43)|YIP kategorilerini iyileştirmek|[sam bacha](sam@freighttrust.com)|
