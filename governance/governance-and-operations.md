@@ -1,95 +1,97 @@
-# Governance and Operations
+# Yönetim ve İşleyiş
 
-Since [YIP-61: Governance 2.0](https://gov.yearn.finance/t/yip-61-governance-2-0/10460) passed on April 25th, 2021, Yearn began the transition into a **multi-DAO** structure, managed by **constrained delegation**. This approach allows protocol development to not be stiffened by bureaucracy while maintaining a sufficient level of decentralization. 
+[YIP-61: Governance 2.0](https://gov.yearn.finance/t/yip-61-governance-2-0/10460) 25 Nisan 2021'de geçtiğinden beri, Yearn **multi -DAO** yapısı, **kısıtlı yetkilendirme** tarafından yönetilir. Bu yaklaşım, protokol geliştirmenin yeterli düzeyde ademi merkeziyetçiliği korurken bürokrasi tarafından katılaştırılmamasına izin verir.
 
-Multi-DAO refers to the fluid number of decentralized autonomous organizations (DAOs) that contribute to the protocol in some unique way. These independent groups consist of YFI holders, yTeams and the Multisig.
+Multi-DAO, protokole benzersiz bir şekilde katkıda bulunan merkezi olmayan özerk kuruluşların (DAO'lar) değişken sayısını ifade eder. Bu bağımsız gruplar YFI sahipleri, yTeams ve Multisig'den oluşur.
 
-- **YFI holders** vote for changes to the protocol or the protocols governance structure
-- **yTeams** focus on specific aspects of the protocol or relevant operations
-- **Multisig** members execute or veto any on-chain decisions
+- **YFI sahipleri** protokol veya protokol yönetim yapısındaki değişiklikler için oy verir
+- **yTeams** protokolün veya ilgili işlemlerin belirli yönlerine odaklanır
+- **Multisig** üyeleri zincirle ilgili kararları uygular veya veto eder
 
-Token holders have ultimate say over what yTeams exist, who is part of the Multisig, and the limitations of each group's operational control. The term 'constrained delgation' originates from token holders delegating specific powers to various groups that build and manage Yearn.
+Token sahipleri, Multisig'in bir parçası olan yTeams'in ne olduğu ve her grubun operasyonel kontrolünün sınırlamaları hakkında nihai söz hakkına sahiptir. 'Kısıtlı yetkilendirme' terimi, Yearn'i oluşturan ve yöneten çeşitli gruplara belirli yetkiler veren token sahiplerinden kaynaklanmaktadır.
 
-A simplified flow of governance would look like this:
+Basitleştirilmiş bir yönetişim akışı şöyle görünür:
 
-    1. YFI holders create, destroy and define limitations of yTeams 
-    2. yTeam notifies yTx of a decision 
-    3. yTx creates a delegated transaction and send it to the Multisig 
-    4. Multisig executes or vetos the transaction
+    1. YFI sahipleri, yTeams'in sınırlarını yaratır, yok eder ve tanımlar
+    2. yTeam bir kararı yTx'e bildirir
+    3. yTx, yetki verilmiş bir işlem oluşturur ve bunu Multisig'e gönderir
+    4. Multisig işlemi yürütür veya veto eder
     
-## DAO Responsibilities
+## DAO Yükümlülükleri
 
 ![](https://i.imgur.com/IDysF5O.png)
 
-### Token Holders 
+### Token Sahipleri
 
-it is the [YFI token](https://docs.yearn.finance/governance/yfi) holder's duty to create and vote for proposals that improve the protocol. 
+protokolü geliştiren teklifleri oluşturmak ve oylamak YFI sahibinin görevidir.
 
-| Proposals | Descriptions |
-|-----------|--------------|
-|Yearn Improvement Proposal (YIP)|A proposal to execute on any power delegated to YFI holders or outside the scope of enumerated powers|
-|Yearn Delegation Proposal (YDP)|A proposal to change where any discrete decision-making power is delegated|
-|Yearn Signaling Proposal (YSP)|A non-binding proposal to signal community feelings or intent on any issue|
+| Öneriler | Tanımlar |
+|----------|----------|
+|İyileştirme Önergesi (YIP)|YFI sahiplerine devredilen veya sayılan yetkilerin kapsamı dışında kalan herhangi bir yetki üzerinden yürütme önerisi|
+|Yearn Heyet Önergesi (YDP)|Herhangi bir ayrık karar verme yetkisinin devredildiği yerde değişiklik önerisi|
+|Yearn Sinyalizasyon Önergesi (YSP)|Herhangi bir konuda topluluk duygularını veya niyetini belirtmek için bağlayıcı olmayan bir öneri|
 
-Specifically, these proposals allow token holders to make the following decisions: 
+Spesifik olarak, bu öneriler, token sahiplerinin aşağıdaki kararları almasına izin verir:
 
-| Power | Description |
+| Yetki | Tanım |
 |-------|-------------|
-|Manage Powers|YFI holders can vote to create, assign, or revoke discrete powers to or from yTeams|
-|Change YFI Token Contract|Any interaction with the YFI token contract, such as to mint YFI or burn the minting keys, remains under the control of YFI holders.|
-|Set Fees|Set the standard fee structures in the Yearn Protocol|
-|Change Multisig Signers|As the Multisig will continue to hold critical powers over the near term, only YFI holders can vote to change its signers|
-|Ratify yTeams|Formally ratify or deratify yTeams to control which yTeams can hold delegated powers|
-|Change yOps Signers|As yOps has the power to change signers of other yTeams, this is a special power to change the signers of yOps|
-|Spend Treasury Funds|Spend funds from the treasury|
-|YIP Power|YFI Holders have the power to propose a YIP on anything not already delegated|
+|Yetki Yönetimi|YFI sahipleri, yTeams'e veya yTeams'den ayrı yetkiler oluşturmak, atamak veya iptal etmek için oy kullanabilir|
+|YFI Token Sözleşmesini Değiştirmek|YFI token sözleşmesiyle, YFI basımı veya basım anahtarlarını yakmak gibi herhangi bir etkileşim, YFI sahiplerinin kontrolü altında kalır.|
+|Ücretleri Belirlemek|Yearn Protokolünde standart ücret yapılarını belirlemek|
+|Multisig yetkililerini Değiştirmek|Multisig yakın vadede kritik yetkileri elinde tutmaya devam edeceğinden, imzalayanları değiştirmek için yalnızca YFI sahipleri oy kullanabilir|
+|yTeams'i onamak|Hangi yTeams'in devredilen yetkileri elinde tutabileceğini kontrol etmek için yTeams'i resmi olarak onamak veya yadsımak|
+|yOps İmza yetkililerini Değiştirmek|yOps, diğer yTeam imza yetkililerini değiştirme gücüne sahip olduğundan, bu, yOps'un imza yetkililerini değiştirmeye yönelik özel bir gücüdür.|
+|hazine fonlarını harcamak|Hazineden sağlanan Fonlarını Harcamak|
+|YIP Yetkisi|YFI Sahipleri, halihazırda devredilmemiş herhangi bir konuda YIP öneri yetkisine sahiptir|
 ### yTeams
 
-Each yTeam has an objective and discrete powers which are defined by token holders. They can be broken further into membership pools, which are separate groups of contributors working towards similar goals as the overarching team. Additionally, one membership pool can be a part of multiple yTeams.
+Her yTeam, token sahipleri tarafından tanımlanan nesnel ve ayrı yetkilere sahiptir.Bunlar, kapsayıcı ekiple benzer hedeflere yönelik çalışan ayrı katılımcı grupları olan üyelik havuzlarına daha da ayrılabilir.Ek olarak, bir üyelik havuzu birden fazla yTeam'in parçası olabilir.
 
-| yTeam | Objective | Membership Pool |
+| yTeam | Hedef | Üyelik Havuzu |
 |-------|-----------|-----------------|
-|yGuard|Protect the vaults|YFI Protocol Dev, YFI Strategists, YFI Mechanics, YFI Secret Admirers|
-|yBrain|Manage the strats|YFI Strategists|
-|yDev|Manage the protocol|YFI Protocol Dev|
-|yPeople|Curate the team|YFI Compensation Working Group, YFI Advisors|
-|yBudget|Spend money well|YFI Finances, YFI Advisors|
-|yFarm|Grow the treasury|YFI Secret Admirers, YFI Secret Entrance|
-|yTx|Write transactions|YFI Doers|
-|yOps|Coordinate contributors|YFI Ops|
+|yGuard|Vault'ların korur|YFI Protokol Geliştiricileri, YFI Stratejistleri, YFI Mekaniği, YFI Gizli Hayranları|
+|yBrain|Stratejileri yönetir|YFI Stratejistleri|
+|yDev|Protokolü yönetir |YFI Protokol Geliştiricisi|
+|yPeople|Takımı yönetir|Ödemeleri Yapan YFI Çalışma Ekibi, YFI Danışmanları|
+|yBudget|Harcamaları iyi yapar|YFI Finansları, YFI Danışmanları|
+|yFarm|Hazineyi büyütür |YFI Gizli Hayranları, YFI Gizli Giriş|
+|yTx|Muameleleri yazar|YFI Yapanlar|
+|yOps|İştirakçiları koordine eder|YFI Operasyonları|
 
-Each yTeam is assigned specific decision-making powers, defined by YIP-61: 
+Her yTeam'e, YIP-61 tarafından tanımlanan belirli karar verme yetkileri verilir:
 
-| yTeam | Power | Description |
+| yTeam | Yetki | Tanım |
 |-------|-------|-------------|
-|yGuard|Emergency Powers|Immediately intervene in case of attack or bug to shutdown or rollback strategies or vaults|
-|yBrain|Manage Strategies|Activate, deactivate, tune, and maintain strategies|
-|yDev|Define Yearn Protocol|Decide what code is considered part of yearn and what isn’t|
-|yDev|Manage Protocol|Maintain and improve the Yearn Protocol|
-|yDev|Add Strategies|Add new strategies to vaults|
-|yTx|Delegate Transactions|Create delegated transactions for the multisig to sign and execute|
-|yPeople|Pay Team|Create, deploy, modify, or terminate Yearn compensation packages|
-|yBudget|Set Budgets|Create budgets for coordinape, grants, hiring, operations, or other workstreams|
-|yFarm|Farm Treasury|Farm with the treasury and make decisions on airdrops|
-|yOps|Ratify yTeam Signers|Formally approve or remove signers for each yTeam|
+|yGuard|Acil Durum Yetkiler|Stratejileri kapatma veya çökertme,vaut'lara saldırı veya hata durumunda anında müdahale eder|
+|yBrain|Stratejileri etkinleştirir, devre dışı bırakır, ayarlar ve sürdürür|
+|yDev|Yearn Protokolünü Tanımlar|DHangi kodun yearn'in bir parçası olarak kabul edilip edilmediğine karar verir|
+|yDev|Protokolü Yönet|Yearn Protokolünü sürdürmek ve geliştirmek|
+|yDev|Strateji Ekler|Vault'lara yeni stratejiler ekler|
+|yTx|İşlemleri Delege Eder|Multisig'in imzalaması ve yürütmesi için temsilci işlemler oluşturur|
+|yPeople|Ödeme Ekibi|Yearn ödeme paketleri oluşturur, dağıtır, değiştirir veya sonlandırır|
+|yBudget|Bütçeleri Belirler|Koordinasyon, hibeler, işe alma, operasyonlar veya diğer iş akışları için bütçeler oluşturur|
+|yFarm|Farm Hazinesi|Hazine ile Farm yapar ve bedelsiz dağılımlarla ilgili kararlar alır|
+|yOps|yTeam İmza yetkililerini Onaylar|Resmi olaraker yTeam için imza yetkililerini onaylar veya kaldırır|
 
-### Multisig 
+### Multisig
 
-Decisions issued by yTeams will be executed on-chain by the Multisig until a more decentralized system is approved for implimentation. In the mean time, the [Multisig](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) controls the following:
+yTeams tarafından verilen kararlar, uygulama için daha merkezi olmayan bir sistem onaylanana kadar Multisig tarafından zincir üzerinde yürütülür. Bu arada[Multisig](https://docs.yearn.finance/resources/faq#who-is-on-the-multisig) şunları kontrol eder:
 
 
-| Power | Description |
+| Yetki | Tanım |
 |-------|-------------|
-|Execution Power|The power to execute decisions made by YFI holders and yTeams on-chain|
-|Veto Power|This power allows the Multisig to veto any decision and ideally should not be needed|
-|Transitionary Power|A temporary power enabling the Multisig to operate under the mandate of YIP-41 until the set of decision-making powers covers all needed transactions|
+|İcra Yetkisi|YFI sahipleri ve zincir-içi yTeams tarafından verilen kararları uygulama gücü|
+|Veto Yetkisi|Bu yetki, Multisig'in herhangi bir kararı veto etmesine izin verir ve ideal olarak buna ihtiyaç duyulmamalıdır|
+|Geçici Yetki|Multisig'in, karar verme yetkilileri gerekli tüm işlemleri yapana kadar YIP-41'in yetkisi altında çalışmasını sağlayan geçici bir yetki|
 
 
-## Future Implementations 
+## Gelecekteki Uygulamalar
 
-Yearn is continuously paving the way towards an ideal balance of DAO decentralization and productivity. The current phase of efforts impliment changes mostly on the social layer, and in the future we will be moving towards software implementations such as: 
+Yearn, DAO ademi merkeziyetçiliği ve üretkenlik arasında ideal bir dengeye giden yolu sürekli olarak açıyor.Çabaların şimdiki safhası, çoğunlukla sosyal katmanda değişiklikler gerektiriyor ve gelecekte aşağıdakiler gibi yazılım uygulamalarına doğru ilerleyeceğiz:
 
-- Multisig consensus mechanisms that allows each yTeam to have execution power 
-- Move from proxy voting to on-chain voting
-- tokenize decision-making powers as NFTs
-- Utilize [Coordinape](https://coordinape.com/) for things like budget allocation and compensation
+- Her yTeam'in yürütme gücüne sahip olmasını sağlayan çoklu imza konsensüs mekanizmaları
+- Vekaleten oy kullanmadan zincir içi oylamaya geçiş
+- karar verme yetkilerini NFT'lar olarak sınıflandırmak
+- Bütçe tahsisi ve tazminat gibi şeyler için [Coordinape](https://coordinape.com/)'i kullamak
+
+
